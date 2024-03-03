@@ -1,0 +1,27 @@
+.spa{
+  transform-origin: 0 100px; 
+}
+.tt{
+    animation: translat 3s steps(100) 0s 1 ;
+}
+.rotate{
+    animation: rota 7s steps(1000) 3s infinite;
+    }
+    @keyframes rota {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }   
+    }
+    @keyframes translat{
+        0%{
+            transform: rotate(0deg);
+            translate: -600px;
+        }
+        100%{
+            transform: rotate(360deg);
+          translate: 0px;
+        }
+    }

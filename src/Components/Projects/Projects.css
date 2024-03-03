@@ -1,0 +1,12 @@
+.rotAnimate{
+    animation: ro 5s steps(1000) 0s infinite;
+    animation-fill-mode: backwards;
+}
+@keyframes ro{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
