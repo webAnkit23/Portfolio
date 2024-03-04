@@ -8,10 +8,10 @@ export default function Footer() {
     <div className=" relative flex items-center justify-around text-white h-[100px] bg-black container-full ">
       <h1 className='flex items-center gap-1 font-bold'>Copyright<FaCopyright />All rights are reserved</h1>
       <div className='flex items-center gap-2'>
-        <a className='duration-100 hover:scale-125'>
+        <a href='https://github.com/webAnkit23' className='duration-100 hover:scale-125'>
         <FaGithub  size={25}/>
         </a>
-      <a className='duration-100 hover:scale-125'>
+      <a href='https://www.linkedin.com/in/ankit-singh-471269224/' className='duration-100 hover:scale-125'>
         <CiLinkedin  size={30}/>
       </a>
       <div  className='absolute flex flex-col items-center justify-center cursor-pointer right-5'>
