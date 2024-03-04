@@ -22,7 +22,7 @@ const project_datas =[
         name :'Travel Advisor',
         img_src : travel,
         icon:'https://cdn-icons-png.flaticon.com/512/1974/1974031.png',
-        about : "This is a car rent website that provide a interactive interface to users to rent car for personal or business use . This website allows you to compare and search cars and help you to choose car at your convenience .So what are you waiting for . Let's go for a ride...",
+        about : "This is a Website that can be used by the travelers .This site can helps them which hotels ,resort ,restaurants to visit based on their prices ,rating ,popularity ,and photos and this site also has google Map embedded in it.Embark on Your Next Adventure with Travel Advisor - Where Your Perfect Trip Begins!",
         github:'https://github.com/webAnkit23/Travel-advisor',
         website_link:'https://ankit-travelapp.netlify.app',
     },
