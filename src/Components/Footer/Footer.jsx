@@ -14,10 +14,10 @@ export default function Footer() {
       <a href='https://www.linkedin.com/in/ankit-singh-471269224/' className='duration-100 hover:scale-125'>
         <CiLinkedin  size={30}/>
       </a>
-      <div  className='absolute flex flex-col items-center justify-center cursor-pointer right-5'>
+      <div  className='absolute flex flex-col items-center justify-center p-[5px] cursor-pointer bottom-[110px] md:bottom-[30px] right-2'>
         <FaLocationArrow onClick={() =>{
             window.scrollTo({top:'0px' ,behavior:'smooth'})
-        }} className=' hover:rotate-[-46deg] duration-150 ' size={40}/>
+        }} className=' hover:rotate-[-46deg] duration-150 text-black md:text-white ' size={40}/>
       </div>
       </div>
     </div>

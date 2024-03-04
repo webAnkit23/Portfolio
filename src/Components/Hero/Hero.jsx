@@ -10,8 +10,8 @@ export default function Hero() {
             <img className=' animate w-[300px] lg:w-[400px]' src='https://static.vecteezy.com/system/resources/thumbnails/016/746/979/small/freelancer-software-developer-programmer-coder-illustrator-vector.jpg'/>
         </div>
         <div className="flex flex-col items-center text-center lg:text-left lg:items-start">
-            <div  className="textAnimate font-bold sm:text-[60px] leading-tight text-[44px] lg:w-[550px]">
-                Front-End React <span className="text-blue-700 font-bold sm:text-[60px] leading-tight text-[44px] ">Devoloper </span>
+            <div  className="textAnimate font-bold sm:text-[60px] leading-tight text-[44px] lg:w-[550px]">Front-End React
+                <span className="text-blue-700 font-bold sm:text-[60px] leading-tight text-[44px] "> Devoloper </span>
                 <img className='inline h-[60px]' src='https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png'/>
                
             </div>
