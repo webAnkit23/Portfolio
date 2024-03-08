@@ -3,6 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaCopyright } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaLocationArrow } from "react-icons/fa6";
+
 export default function Footer() {
   return (
     <div className=" relative flex items-center justify-around text-white h-[100px] bg-black container-full ">
@@ -21,5 +22,6 @@ export default function Footer() {
       </div>
       </div>
     </div>
+    
   )
 }

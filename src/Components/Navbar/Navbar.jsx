@@ -3,10 +3,10 @@ import { RxCross2 } from "react-icons/rx";
 import { FaBars } from "react-icons/fa6";
 export default function Navbar({refe}) {
     const [showList ,setShowList] = useState(false);
-    console.log(refe);
+  
     const handleClick =(el) =>{
       setShowList(false);
-      console.log(refe[el]);
+      
       refe[el].current.scrollIntoView({behavior:'smooth'});
 
     }

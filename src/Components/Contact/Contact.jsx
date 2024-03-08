@@ -3,8 +3,10 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { FaInstagram } from "react-icons/fa";
+import Translate from '../Animations/Translate';
 export default function Contact() {
   return (
+    <Translate>
     <div className="flex flex-col items-center justify-center pt-[30px] pb-[30px] sm:p-[30px]  bg-gray-300 container-fill">
      <h1 className='text-[40px] text-blue-500 font-bold'>Contact</h1>
      <h2 className='flex gap-[5px] text-[25px] items-end font-semibold'>Don't be Shy! Hit me up! <img className='inline w-[20px]' src='https://static-00.iconduck.com/assets.00/backhand-index-pointing-down-emoji-emoji-1316x2048-3mlweser.png'></img></h2>
@@ -61,5 +63,6 @@ export default function Contact() {
      </a>
      </div>
     </div>
+    </Translate>
   )
 }
