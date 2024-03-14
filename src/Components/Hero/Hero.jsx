@@ -11,7 +11,7 @@ export default function Hero() {
         </div>
         <div className="flex flex-col items-center text-center lg:text-left lg:items-start">
             <div  className="textAnimate font-bold sm:text-[60px] leading-tight text-[44px] lg:w-[550px]">Front-End React
-                <span className="text-blue-700 font-bold sm:text-[60px] leading-tight text-[44px] "> Devoloper </span>
+                <span className="text-blue-700 font-bold sm:text-[60px] leading-tight text-[44px] "> Developer </span>
                 <img className='inline h-[60px]' src='https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png'/>
                
             </div>
