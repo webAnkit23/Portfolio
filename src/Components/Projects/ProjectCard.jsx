@@ -1,8 +1,11 @@
 import React from 'react'
 import { FaReact } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { PiGraphLight } from "react-icons/pi";
+import { FaNode } from "react-icons/fa";
+import { BiLogoMongodb } from "react-icons/bi";
 import Translate from '../Animations/Translate';
-export default function ProjectCard({project}) {
+export default function ProjectCard({project,index}) {
   return (
     <Translate>
     <div className='flex flex-col items-center justify-center gap-5 p-4 border-2 rounded shadow-lg md:flex-row'>
@@ -13,12 +16,19 @@ export default function ProjectCard({project}) {
   <a href={project.website_link} className='flex items-center justify-center gap-1 group '>
     
         <h1 className='font-mono text-2xl font-bold text-blue-700 '>{project.name}</h1>
-    <img className=' group-hover:scale-[1.6] group-hover:translate-x-[50px] duration-500 inline  h-16' src={project.icon}></img>
+
+        {
+          index==1?<PiGraphLight className='self-center mt-4 rotAnimate'  size={50}/>:<img className=' group-hover:scale-[1.6] group-hover:translate-x-[50px] duration-500 inline  h-16' src={project.icon}></img>
+        }
+    
+
     
   </a>
-  <p className='max-w-[300px] sm:max-w-[350px] text-gray-700 font-semibold  text-center '>{project.about} </p>
+  <p className='md:max-w-[700px] font-semibold text-center text-gray-700 '>{project.about} </p>
    <div className=' w-[100%] flex items-center justify-center'>
-   <FaReact className='self-center mt-4 rotAnimate' color='#61dbfb' size={50}/>  
+   <FaReact className='self-center mt-4 rotAnimate' color='#61dbfb' size={50}/> 
+   {index==1&& <BiLogoMongodb className='self-center mt-4 rotAnimate' color='green' size={50}/> }
+   {index==1&& <FaNode className='self-center mt-4 rotAnimate' color='green' size={50}/> }
    </div>
    <a href={project.github} className='flex items-center gap-2 hover:text-blue-700 text-[15px] font-semibold text-xl w-[100%] justify-center mt-[10px]'>Code <FaGithub /></a>
 </div>

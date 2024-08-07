@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import Translate from '../Animations/Translate';
 export default function About() {
-    const text ='FRONT-END DEVOLOPER';
+    const text ='FULL-STACK DEVOLOPER';
     
   return (
    
@@ -28,9 +28,9 @@ export default function About() {
         <Translate>
         <div className='max-w-[450px]'>
           <h1 className='font-bold text-blue-500 sm:text-2xl '>About me</h1>
-          <h2 className='mt-2 text-[30px] font-semibold'>Front-end Devoloper Based in Gorapkhpur , India</h2>
-          <p className='mt-2  text-[17px] font-mono font-medium sm:text-[19px] text-gray-500'>Hey everyone , My name is Ankit Singh and I'm a Frontend Devoloper . My passion is a to create amazing  interface for websites .</p>
-          <p className='mt-2  text-[17px] font-mono font-medium sm:text-[19px] text-gray-500'>Currently i make my sites using ReactJs with combination of tailwind css.</p>
+          <h2 className='mt-2 text-[30px] font-semibold'>Web Devoloper Based in Gorapkhpur , India</h2>
+          <p className='mt-2  text-[17px] font-mono font-medium sm:text-[19px] text-gray-500'>Hey everyone , My name is Ankit Singh and I'm a Web Devoloper . My passion is a to create amazing  interface for websites .</p>
+          <p className='mt-2  text-[17px] font-mono font-medium sm:text-[19px] text-gray-500'>Currently i make my sites using MERN stack with combination of tailwind css.</p>
           <p className='mt-2  text-[17px] font-mono font-medium sm:text-[19px] text-gray-500'>So if you're a fellow developer, a potential client, or someone who shares a passion for technology, I'd love to connect and explore how we can work together to turn ideas into reality.</p>
         </div>
         </Translate>

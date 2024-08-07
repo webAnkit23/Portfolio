@@ -7,6 +7,9 @@ import { FaSass } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { RiHtml5Fill } from "react-icons/ri";
+import { FaNode } from "react-icons/fa";
+import { BiLogoMongodb } from "react-icons/bi";
+import { SiExpress } from "react-icons/si";
 import './Skills.css'
 export default function Skills() {
     const size =70
@@ -18,11 +21,16 @@ export default function Skills() {
             <div className='roAni '>
                <FaReact className='four duration-300 hover:translate-y-[-10px]' color='#61dbfb' size={size}/>
             </div>
+            <FaNode className='three duration-300 hover:translate-y-[-10px]' color='rgb(128 178 1)' size={80}/>
+            <SiExpress className='three duration-300 hover:translate-y-[-10px] ml-2' color='rgb(128 178 1)' size={60}/>
+
+
+            <BiLogoMongodb className='three duration-300 hover:translate-y-[-10px]' color='rgb(99 164 0)' size={70}/>
             
             <SiTailwindcss className='five duration-300 hover:translate-y-[-10px]' color='#61dbfb' size={size}/>
             <FaJava className=' six duration-300 hover:translate-y-[-10px]' color='blue' size={size}/>
-            <SiMysql className="cursor-not-allowed seven opacity-30" color='green' size={size}/>
-            <FaSass className='cursor-not-allowed eight opacity-30' color='pink' size={size}/>  
+            <SiMysql className="cursor-not-allowed seven hover:translate-y-[-10px] " color='cadetblue' size={size}/>
+            
     </div>
   )
 }

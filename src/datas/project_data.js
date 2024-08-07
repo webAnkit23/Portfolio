@@ -1,14 +1,43 @@
 import carRental from './../assets/carRental.jpeg'
 import movieStation from './../assets/movieStation.jpeg'
 import travel from './../assets/travel.jpeg';
+import chat from './../assets/chat.png';
+import algo from './../assets/algo.png';
+import linked from './../assets/linked.png';
 const project_datas =[
+
+
+    {
+        name :'Aqua-Chat',
+        img_src : chat,
+        icon:'',
+        about : "Our Real-Time Chat Application, built with the MERN stack, offers a seamless communication experience with features like one-on-one and group chats, typing indicators, and secure JWT authentication. It includes comprehensive group management capabilities, allowing admins to update groups and manage members efficiently. The responsive and user-friendly interface ensures a consistent experience across all devices.",
+        github:'https://github.com/webAnkit23/AquaChat',
+        website_link:'https://aquachat.onrender.com',
+    },
+    {
+        name :'Algo Graphics',
+        img_src : algo,
+        icon:'https://cdn3d.iconscout.com/3d/premium/thumb/car-4706693-3918067.png?f=webp',
+        about : "The Algo Graphics is an interactive React.js application that brings algorithms to life. It features maze creation and traversal algorithms such as DFS, BFS, Dijkstra, and A*. Additionally, it includes sorting algorithm visualizations and a Sudoku solver. This tool provides an engaging way to understand and visualize complex algorithms in action.",
+        github:'https://github.com/webAnkit23/Algo-Graphics',
+        website_link:'https://algo-graphics.vercel.app/',
+    },
+    {
+        name :'Linked-in Clone',
+        img_src : linked,
+        icon:'',
+        about : "The LinkedIn clone, built using Firebase and React, offers a comprehensive social networking experience. It features user authentication, post creation, liking and commenting on posts, and building professional connections, providing a robust platform for networking and engagement.",
+        github:'https://github.com/webAnkit23/Linkedin-Clone',
+        website_link:'https://main--exactlinkedclone.netlify.app',
+    },
     {
         name :'Car Rental',
         img_src : carRental,
         icon:'https://cdn3d.iconscout.com/3d/premium/thumb/car-4706693-3918067.png?f=webp',
         about : "This is a car rent website that provide a interactive interface to users to rent car for personal or business use . This website allows you to compare and search cars and help you to choose car at your convenience .So what are you waiting for . Let's go for a ride...",
         github:'https://github.com/webAnkit23/Car-Rental-App',
-        website_link:'https://curious-melba-896d44.netlify.app/',
+        website_link:'https://ankit-car-rental.netlify.app/',
     },
     {
         name :'MovieStation',
